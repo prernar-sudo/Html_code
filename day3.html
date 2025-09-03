@@ -28,9 +28,92 @@
          <!-- it gives popup like @ is missing -->
          <input type="submit" value="login">
 
-         H.W.//-----
-         use these
+         <!-- H.W.//-----
+         use these -->
          <!-- label...  fieldset legend... -->
+
+         <form>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username">
+    </form>
+    <!---------------------------------------------------------------------------------------------------------->
+    <fieldset><legend>Contact Information</legend>
+    <label > Email address: <input type="email" name="email"></label>
+    </fieldset>
+    
+    <!---------------------------------------------------------------------------------------------------------->
+    <!---Question 1) Why legends and fieldset are used together
+                  2) -->
+
+    <!-------Create a table-->
+    <table border="10" cellspacing="0px" cellpadding="10px" align="center">
+        <tr>
+            <th colspan="6"> Time Table</th>
+        </tr>
+
+        <tr>
+            <td rowspan="6"><b>Hours</b></td>
+            <td><b>Mon</b></td>
+            <td><b>Tue</b></td>
+            <td><b>Wed</b></td>
+            <td><b>Thu</b></td>
+            <td><b>Fri</b></td>
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td colspan="5" align="center"><b>Lunch</b></td>
+            <!--inside this tr, we can make one th to make it center align another way-->
+            <!-- <td>Maths</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Art</td> -->
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td rowspan="2">Project</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <!-- <td>Art</td> -->
+        </tr>
+
+        
+
+        
+    </table>
+
+
+        
+          
          
 
     </form>
