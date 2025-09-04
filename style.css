@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: plum;
 }
 h1{
@@ -9,4 +9,33 @@ h1{
 }
 .head1{
     background-color: blue;
+} */
+
+h2{
+    background-color: brown;
+    font-size: 60px;
+    color: rgb(152,231,151);
+    text-decoration:line-through;
+    /* search line through tag in html */
+    text-decoration: overline;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    word-spacing: 40px;
+    letter-spacing: 30px;
+    
+}
+p{
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: oblique;
+    letter-spacing: 12px;
+}
+
+.head1{
+    color: yellowgreen;
+}
+
+#head2{
+    color: aqua;
 }
