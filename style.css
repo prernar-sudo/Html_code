@@ -11,31 +11,84 @@ h1{
     background-color: blue;
 } */
 
-h2{
+/* h2{
     background-color: brown;
     font-size: 60px;
     color: rgb(152,231,151);
     text-decoration:line-through;
     /* search line through tag in html */
-    text-decoration: overline;
+    /* text-decoration: overline;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     word-spacing: 40px;
-    letter-spacing: 30px;
+    letter-spacing: 30px; */
     
-}
-p{
+/* } */ */
+/* p{
     font-weight: bolder;
     font-size: 40px;
     font-style: oblique;
     letter-spacing: 12px;
-}
+} */
 
-.head1{
+/* .head1{
     color: yellowgreen;
-}
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+
+    padding: 10px;
+    margin: 10px;
+} */
 
 #head2{
     color: aqua;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: black;
+
+    border: 3px dashed red;
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.head4{
+
+    border: 4px solid brown;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.head5{
+
+    width: 200px;
+    height: 50px;
+    border: 4px dotted orange;
+    border-left: 4px dashed green;
+    border-right:4px dashed green ;
+    /* border-radius: 40px; */
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 40px;
+    text-align: center;
+    color: blue;
+    
+    
+}
+.head6{
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    border-radius: 50%;
+    margin-left: 100px;
+    /* //always give width and height same */
+    
+    
 }
