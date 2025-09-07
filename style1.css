@@ -1,0 +1,51 @@
+.okk{
+
+    color: green;
+    background-color: beige;
+    /* without display we can't use justify content */
+    /* display property bring all the content in one line */
+    display: flex;    
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    /* this we can use to get home tag and all */
+
+
+}
+
+.okk2{
+
+    display: flex;    
+    justify-content: space-evenly;
+    /* gap: 20px; */
+    align-items: center;
+
+}
+
+.box{
+
+    width: 300px;
+    height:300px;
+    border: 1px solid black;
+
+   
+}
+.box1{
+
+    border-radius: 50%;
+}
+
+.nav{
+    display: flex;             /* arrange item in one line */
+    justify-content: space-between;         /* spread items: left, center, right */
+    align-items: center;
+    border: 4px solid black;
+    padding: 20px;
+    background-color: bisque;
+}
+
+/* percentage is much better than pixel */
+/* width always try to keep in %, but height can be in pixel */
+/* vh ->viewport height */
+/* vertical center-> alignitemcenter */
+/* flex-directio:column; */
