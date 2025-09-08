@@ -1,0 +1,62 @@
+body{
+    width: 100%;        /* width always try to keep in %, but height can be in pixel */
+    height: 100vh;      /* vh ->viewport height */
+    display: flex;      /* arrange item in one line */
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+#mainbox{
+    width: 90%;
+    height: 80vh;
+    border: 1px solid black;
+    background-color: bisque;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    width: 25%;
+    height: 400px;
+    border: 1px solid green;
+    border-end-end-radius: 10px;
+    
+}
+
+.child1{
+    width: 100%;
+    height: 35%;
+    border: 1px solid red;
+    
+}
+
+.child2{
+    width: 100%;
+    height: 45%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.child3{
+    width: 100%;
+    height: 20%;
+    border: 1px solid red;
+    display: flex;
+    
+}
+
+.subchild{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+

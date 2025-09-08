@@ -28,6 +28,7 @@ git commit -m "newly added commit"
 git push
 
 /////////////////////////////////
+ctrl+alt+downward arrow-> to select multi line cursor
 
 
 
