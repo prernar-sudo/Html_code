@@ -30,5 +30,24 @@ git push
 /////////////////////////////////
 ctrl+alt+downward arrow-> to select multi line cursor
 
+/////////////////////////////////////
+info.cern.ch------------first website
+//////////////////////////////
+18 tag and 150 plus
+////////////////////////////
+types of tag
+//////////////////////
+what is meta tag
+//who has the more priority inline, internal, external
+
+//differnce in anchor and link tag
+//can we use link tag in body
+//////////////////////////////
+index.html
+style.html
+image
+/////////////////////////
+
+
 
 

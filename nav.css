@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+
+/* flexwrap->is used to make website compatible with tablet and phone */
+/* flex direction-column */
+/* use background img to put text above it */
+/* background repeat_no repeat */
+/* background size-cover */
+/* img resizer website is available */
+
+
+
+
+#box{
+
+    width: 100%;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
