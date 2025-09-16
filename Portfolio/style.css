@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* border: 1px solid black; */
+    /* background-color: lightsalmon; */
+    position: fixed;
+    font-size: large;
+    /* font-weight: bold; */
+    
+    
+}
+
+#navbar h2{
+    /* color: rgba(171, 85, 10, 0.967); */
+    color: black;
+}
+
+#navbar nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+#navbar nav ul li{
+    display: flex;
+    align-items: center;
+}
+
+#navbar nav ul li a{
+   
+    
+    text-decoration: none;
+    color: black;
+    /* text-transform: uppercase; */
+}
+
+#navbar nav ul li button{
+    
+   
+    color: white;
+    gap: 5px;
+    border-radius: 40px;
+    background-color:  rgba(171, 85, 10, 0.967);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    
+
+}
+
+#navbar nav ul li a:hover{
+    transition: 0.3s;
+    transform: scale(5.5);
+    color: #000;
+    font-size: 20px;
+    text-decoration:solid;
+}
+
+/* navbar code ends here */
+
+#firstpage{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right, rgb(255,255,255), rgb(254,215,173));
+}
+
+#firstpage div button{
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(171, 85, 10, 0.967);
+    padding: 8px 40px;
+    border: none;
+}
+
+
+#secondpage{
+    /* for slider */
+    width: 100%;
+    /* display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* through above property we will see three box in one line  */
+    /* to make the slicer we will use grid template columns */
+    display: grid;
+    grid-template-columns: repeat(8,300px);
+    gap: 20px;
+    overflow-x: scroll;
+    /* using scroll, now website will not scroll */
+    scrollbar-width: none;
+    position: absolute;
+
+
+}
+
+#icon ul li a{
+    display: flex;
+}
+
+/* responsive website */
+@mediatek
