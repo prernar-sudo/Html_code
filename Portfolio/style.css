@@ -60,7 +60,7 @@
 
 #navbar nav ul li a:hover{
     transition: 0.3s;
-    transform: scale(5.5);
+    transform: scale(1.5);
     color: #000;
     font-size: 20px;
     text-decoration:solid;
@@ -107,9 +107,27 @@
 
 }
 
-#icon ul li a{
+#icon ul{
     display: flex;
+    gap: 20px;
+    
 }
 
+#icon ul li{
+    text-decoration:none;
+    list-style: none;
+    color: #000;
+}
+
+#icon ul li a{
+    border: 1px solid rgba(171, 85, 10, 0.967);
+    border-radius: 50%;
+    border
+    padding: 2px;
+
+    color: rgba(171, 85, 10, 0.967);
+}
 /* responsive website */
-@mediatek
+@media (max-width:420px){
+
+}
