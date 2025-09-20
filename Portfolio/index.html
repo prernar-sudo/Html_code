@@ -25,7 +25,7 @@
                     <li><a href="#secondpage">About</a></li>
                     <li><a href="#thirdpage">Skills</a></li>
                     <li><a href="#fourthpage">Projects</a></li>
-                    <li><a href="#footer"><button>Contact</button></a></li>
+                    <li><a href="#lastpage"><button>Contact</button></a></li>
                     <!-- if i have to connect button with form used label checkbox -->
                     
                     
@@ -69,8 +69,12 @@
                 <!-- second page starts here ------------------------------------------------------------------------------------------------->
 
                 <section id="secondpage">
-                    
-                        <h2>About Me</h2>
+
+                        <div class="bulb-icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                             <h2>About Me</h2>
+                        </div>
+                        
                         <div>
                             <p>
                             Hi, I'm Prerna — a Computer Science graduate and aspiring data/tech professional. 
@@ -87,7 +91,7 @@
                         <ul class="about-list">
                             <li>🎓 Education: B.Tech in Computer Science</li>
                             <li>💻 Interests: Data Analytics, AI/ML and DevOps</li>
-                            <li>📍 Location: India</li>
+                            <li>📍 Location: Bhopal, India</li>
                             <li>🌱 Currently Exploring: SQL, Python for Data, and Portfolio Projects</li>
                         </ul>
                         </div>
@@ -98,30 +102,35 @@
                  <!-- thirdpage starts here------------------------------------------------------------------------------------------ -->
                 <section id="thirdpage">
                     <h2>My Skills</h2>
-
-                    <div class="skills-slider">
-                        <div class="slide">
-                        <i class="fa-brands fa-html5"></i>
-                        <p>HTML</p>
+                    <div class="skills-container">
+                        <div class="skill-box">
+                            <i class="fa-brands fa-html5"></i>
+                            <p>HTML</p>
                         </div>
-                        <div class="slide">
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <p>CSS</p>
+                        <div class="skill-box">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <p>CSS</p>
                         </div>
-                        <div class="slide">
-                        <i class="fa-brands fa-python"></i>
-                        <p>Python</p>
+                        <div class="skill-box">
+                            <i class="fa-solid fa-code"></i>
+                            <p>C++</p>
                         </div>
-                        <div class="slide">
-                        <i class="fa-solid fa-file-excel"></i>
-                        <p>Excel</p>
+                        <div class="skill-box">
+                            <i class="fa-brands fa-python"></i>
+                            <p>Python</p>
                         </div>
-                        <div class="slide">
-                        <i class="fa-solid fa-database"></i>
-                        <p>SQL</p>
+                        <div class="skill-box">
+                            <i class="fa-solid fa-file-excel"></i>
+                            <p>Excel</p>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fa-solid fa-database"></i>
+                            <p>SQL</p>
                         </div>
                     </div>
                 </section>
+
+
 
                
 
@@ -132,27 +141,23 @@
                         <h2>My Projects</h2>
 
                         <!-- Excel Dashboard 1 -->
-                        <div class="project-card">
-                            <img src="./images/dynamic_dashboard.png" alt="dynamic_dashboard">
-                            <h3>Dynamic Dashboard</h3>
-                            <p>Interactive Excel dashboard showing KPIs, revenue trends, and department wise performance.</p>
-                        </div>
+                         <div class="project-container">
+                             <div class="project-card">
+                                <img   src="./images/dynamic_dashboard1.png" alt="dynamic_dashboard">
+                                <h3>Dynamic Dashboard</h3>
+                                <p>Interactive Excel dashboard showing KPIs, revenue trends, and department wise performance.</p>
+                            </div>
 
-                        <!-- Excel Dashboard 2 -->
-                        <div class="project-card">
-                            <img src="./images/business_dashboard.png" alt="business Dashboard">
-                            <h3>Business Insights Dashboard</h3>
-                            <p>Excel dashboard for employee data: salary, headcount, and department-wise stats.</p>
-                        </div>
+                            <!-- Excel Dashboard 2 -->
+                            <div class="project-card">
+                                <img  src="./images/business_dashboard.png" alt="business Dashboard">
+                                <h3>Business Insights Dashboard</h3>
+                                <p>Excel dashboard for employee data: salary, headcount, and department-wise stats.</p>
+                            </div>
 
-                        <!-- Pedestrian Detection -->
-                        <!-- <div class="project-card">
-                            <img src="images/pedestrian-detection.png" alt="Pedestrian Detection">
-                            <h3>Pedestrian Detection using Python</h3>
-                            <p>Developed a pedestrian detection system using Python and the COCO dataset. 
-                            Implemented data preprocessing, model training, and bounding box visualization.</p>
-                            <a href="https://github.com/yourgithub/pedestrian-detection" target="_blank">View Code</a>
-                        </div> -->
+                            
+                         </div>
+                       
                         </section>
 
                  <!-- fourthpage ends here---------------------------------------------------------------------------------- -->
@@ -160,7 +165,7 @@
          <!-- main ends here -------------------------------------------------------------------------------------------- -->
 
          <!-- footer starts here -->
-         <footer>
+         <footer id="lastpage">
                     
                     <h3>Let's Connect!</h3>
                     <!-- <p>Email: <a href="mailto:prerna25rathore@gmail.com">prerna25rathore@gmail.com</a></p> -->
