@@ -27,7 +27,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 998;
     font-size: large;
     font-weight: bold;
     background: linear-gradient(to right, rgb(255, 255, 255), rgb(254, 215, 173));
