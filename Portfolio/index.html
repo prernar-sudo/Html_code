@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prerna's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style1.css">
 </head>
 <body>
         <!-- Header code starts here -->
          <label for="check" id="bar"><i class="fa-solid fa-bars"></i> </label>
-                <input type="checkbox" id="check">
+         <input type="checkbox" id="check">
          <header id="navbar">
                 
             <!-- <img src="./images/nav_bar_name.jpeg" alt="nav_bar_name_img"  > -->
 
-            <h2><i>Prerna.</i></h2>
+            <h2><span><i>Prerna.</i></span></h2>
 
             <nav>
                 <ul>
@@ -24,8 +24,8 @@
                     <!-- give the id after#, in order to go to that section -->
                     <li><a href="#secondpage">About</a></li>
                     <li><a href="#thirdpage">Skills</a></li>
-                    <li><a href="#fourthpage">Portfolio</a></li>
-                    <li><button>Contact</button></li>
+                    <li><a href="#fourthpage">Projects</a></li>
+                    <li><a href="#footer"><button>Contact</button></a></li>
                     <!-- if i have to connect button with form used label checkbox -->
                     
                     
@@ -33,20 +33,23 @@
             </nav>
 
          </header>
-         <!-- header code ends here -->
-          <br> <br> <br>
+         <!-- header code ends here ------------------------------------------------------------------------------>
+          
 
+        <!-- main starts here-------------------------------------------------------------------------------- -->
          <main>
                 <section id="firstpage">
                     <img src="./images/photo.png" alt="my_photo">
                     <div>
-                        <h1>Hey I'm Prerna</h1>
+                        <h1>Hey I'm <span>Prerna</span></h1>
                         <br>
-                        <h2>I'm a Programmer</h2>
+                        <h2>I'm a <span>Programmer|</span></h2>
                         <br>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Minima quod optio iusto perspiciatis vel molestiae deserunt 
-                        libero provident odio. Optio rerum ea aut fugiat facilis soluta tenetur eaque sunt quasi.</p>
+                        <p>Welcome to my web developer portfolio! I'm Prerna, a skilled and 
+                            creative web developer with a passion for creating beautiful,
+                            responsive, and user friendly websites. I have a background in computer 
+                            science and I enjoy bringing creative ideas to life through code.
+                        </p>
                         <br>
                         <div id="icon">
                             <ul> 
@@ -56,23 +59,121 @@
                             </ul>
                         </div>
                         <br>
-                        <button>Download CV</button>
+                        <button>Download Resume</button>
                     </div>
                     
                 </section>
 
+                <!-- First Page ends here -->
+
+                <!-- second page starts here ------------------------------------------------------------------------------------------------->
+
+                <section id="secondpage">
+                    
+                        <h2>About Me</h2>
+                        <div>
+                            <p>
+                            Hi, I'm Prerna — a Computer Science graduate and aspiring data/tech professional. 
+                            I enjoy building creative and impactful digital solutions, from interactive Excel 
+                            dashboards to full-stack web projects.
+                        </p>
+
+                        <p>
+                            I'm passionate about problem-solving, data-driven decision making, and creating 
+                            user-friendly applications. My goal is to work on projects that combine 
+                            technology and innovation to make a real impact.
+                        </p>
+
+                        <ul class="about-list">
+                            <li>🎓 Education: B.Tech in Computer Science</li>
+                            <li>💻 Interests: Data Analytics, AI/ML and DevOps</li>
+                            <li>📍 Location: India</li>
+                            <li>🌱 Currently Exploring: SQL, Python for Data, and Portfolio Projects</li>
+                        </ul>
+                        </div>
+                </section>    
+                
+                 <!-- second page ends here ------------------------------------------------------------------------------------------------->
+                  
+                 <!-- thirdpage starts here------------------------------------------------------------------------------------------ -->
                 <section id="thirdpage">
+                    <h2>My Skills</h2>
 
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
+                    <div class="skills-slider">
+                        <div class="slide">
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML</p>
+                        </div>
+                        <div class="slide">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                        </div>
+                        <div class="slide">
+                        <i class="fa-brands fa-python"></i>
+                        <p>Python</p>
+                        </div>
+                        <div class="slide">
+                        <i class="fa-solid fa-file-excel"></i>
+                        <p>Excel</p>
+                        </div>
+                        <div class="slide">
+                        <i class="fa-solid fa-database"></i>
+                        <p>SQL</p>
+                        </div>
+                    </div>
                 </section>
+
+               
+
+                <!-- thirdpage ends here -->
+
+                <!-- fourthpage starts here ----------------------------------------------------------------------------------------------------------->
+                 <section id="fourthpage">
+                        <h2>My Projects</h2>
+
+                        <!-- Excel Dashboard 1 -->
+                        <div class="project-card">
+                            <img src="./images/dynamic_dashboard.png" alt="dynamic_dashboard">
+                            <h3>Dynamic Dashboard</h3>
+                            <p>Interactive Excel dashboard showing KPIs, revenue trends, and department wise performance.</p>
+                        </div>
+
+                        <!-- Excel Dashboard 2 -->
+                        <div class="project-card">
+                            <img src="./images/business_dashboard.png" alt="business Dashboard">
+                            <h3>Business Insights Dashboard</h3>
+                            <p>Excel dashboard for employee data: salary, headcount, and department-wise stats.</p>
+                        </div>
+
+                        <!-- Pedestrian Detection -->
+                        <!-- <div class="project-card">
+                            <img src="images/pedestrian-detection.png" alt="Pedestrian Detection">
+                            <h3>Pedestrian Detection using Python</h3>
+                            <p>Developed a pedestrian detection system using Python and the COCO dataset. 
+                            Implemented data preprocessing, model training, and bounding box visualization.</p>
+                            <a href="https://github.com/yourgithub/pedestrian-detection" target="_blank">View Code</a>
+                        </div> -->
+                        </section>
+
+                 <!-- fourthpage ends here---------------------------------------------------------------------------------- -->
          </main>
+         <!-- main ends here -------------------------------------------------------------------------------------------- -->
+
+         <!-- footer starts here -->
+         <footer>
+                    
+                    <h3>Let's Connect!</h3>
+                    <!-- <p>Email: <a href="mailto:prerna25rathore@gmail.com">prerna25rathore@gmail.com</a></p> -->
+                    <p>Email: <a href="mailto:prerna25rathore@gmail.com">prerna25rathore@gmail.com</a></p>
+                    
+                    <div class="social">
+                        <a href="#github"><i class="fa-brands fa-github"></i></a>
+                        <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <p>Copyright &copy; 2025 Prerna. All rights reserved.</p>
+         </footer>
+         <!-- footer ends here -->
+
 </body>
 </html>

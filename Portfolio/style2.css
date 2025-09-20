@@ -1,0 +1,185 @@
+
+
+
+
+
+
+
+
+/* ================= HERO / FIRST PAGE ================= */
+
+
+
+
+/* ================= SKILLS SECTION ================= */
+#thirdpage {
+    padding: 60px 20px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+#thirdpage .section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.skills-slider {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px;
+}
+
+.skills-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slide {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.slide i {
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.slide p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* ================= PROJECTS ================= */
+#projects {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#projects h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.project-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin: 15px 0 5px;
+    color: #444;
+}
+
+.project-card p {
+    font-size: 0.9rem;
+    padding: 0 10px 15px;
+    color: #666;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background: #222;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff9800;
+}
+
+footer .social {
+    margin: 20px 0;
+}
+
+footer .social a {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social a:hover {
+    color: #ff9800;
+    transform: scale(1.2);
+}
+
+footer p:last-of-type {
+    margin-top: 25px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* ================= RESPONSIVE ================= */
+#bar {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 30px;
+    z-index: 999;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 420px) {
+    #bar {
+        display: block;
+    }
+
+    #navbar {
+        background-color: burlywood;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #navbar nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #firstpage {
+        flex-direction: column;
+        padding-top: 120px;
+    }
+}
