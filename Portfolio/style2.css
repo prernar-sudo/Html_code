@@ -360,7 +360,7 @@ footer .social a:hover {
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 580px) {
     #bar {
         display: block;
         position: absolute;
