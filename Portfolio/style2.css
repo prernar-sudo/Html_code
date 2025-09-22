@@ -27,7 +27,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 998;
+    z-index: 1000;
     font-size: large;
     font-weight: bold;
     background: linear-gradient(to right, rgb(255, 255, 255), rgb(254, 215, 173));
@@ -95,6 +95,8 @@ span {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
+    
+
 }
 
 #firstpage div {
