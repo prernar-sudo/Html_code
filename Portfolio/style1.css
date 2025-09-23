@@ -255,6 +255,7 @@ span{
   padding: 100px 40px;
   background: #f9f9f9;
   text-align: center;
+  display: block;
 }
 
 #fourthpage h2 {
